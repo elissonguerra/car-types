@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+/* font-family: "Lexend Deca", sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+/* font-family: "Big Shoulders Display", sans-serif; */
 
 :root {
     --cor1: hsl(31, 77%, 52%);
@@ -33,24 +35,134 @@ main {
 .card {
     display: flex;
     flex-direction: row;
-    width: 900px;
+    width: 750px;
     border-radius: 8px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.226);
 }
 
 .sedans-type {
+    display: flex;
+    flex-direction: column;
     background-color: var(--cor1);
     border-radius: 8px 0px 0px 8px;
-    padding: 30px;
+    width: 33.4%;
+    padding: 40px;
+    gap: 60px;
+
+}
+
+.conteudo-sedans {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .suvs-type {
+    display: flex;
+    flex-direction: column;
     background-color: var(--cor2);
-    padding: 30px;
+    padding: 40px;
+    gap: 60px;
+    width: 33.3%;
+}
 
+.conteudo-suvs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.conteudo-suvs > p {
+    width: 98%;
 }
 
 .luxury-type {
+    display: flex;
+    flex-direction: column;
     background-color: var(--cor3);
     border-radius: 0px 8px 8px 0px;
-    padding: 30px;
+    padding: 40px;
+    gap: 60px;
+    width: 33.3%;
+}
+
+.conteudo-luxury {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.conteudo-luxury > p {
+    width: 100%;
+}
+
+h1 {
+    font-family: "Big Shoulders Display", sans-serif;
+    text-transform: uppercase;
+    color: var(--cor5);
+    width: 100%;
+}
+
+p {
+    font-family: "Lexend Deca", sans-serif;
+    color: var(--cor4);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.8;
+    width: 90%;
+}
+
+.sedan-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    background-color: var(--cor5);
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.sedan-button > p {
+    color: hsla(31, 77%, 52%, 0.75);
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+img {
+    width: 50px;
+}
+
+.suvs-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    background-color: var(--cor5);
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.suvs-button > p {
+    color: hsla(184, 100%, 22%, 0.75);
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.luxury-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    background-color: var(--cor5);
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.luxury-button > p {
+    color: hsla(179, 100%, 13%, 0.75);
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
 }
