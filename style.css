@@ -195,7 +195,7 @@ img {
     .card {
         flex-direction: column;
         width: 300px;
-        height: 100vh;
+        height: 95vh;
         padding: 15px;
         box-shadow: none;
     }
