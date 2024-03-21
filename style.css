@@ -185,3 +185,34 @@ img {
     width: 50px;
 }
 
+@media (max-width: 670px) {
+    .card {
+        flex-direction: column;
+        width: 300px;
+        height: 100vh;
+        padding: 15px;
+        box-shadow: none;
+    }
+
+    .sedans-type {
+        width: 100%;
+        border-radius: 8px 8px 0px 0px;
+        gap: 20px;
+    }
+
+    .conteudo-sedans > p {
+        width: 98%;
+    }
+
+    .suvs-type {
+        width: 100%;
+        gap: 20px;
+    }
+
+    .luxury-type {
+        width: 100%;
+        border-radius: 0px 0px 8px 8px;
+        gap: 20px;
+    }
+}
+
